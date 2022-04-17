@@ -1,0 +1,83 @@
+body { /*corpo do texto*/
+	
+	width: 80%; /*largura*/
+	max-width: 940px; /*tamanho máximo*/
+	margin-left: auto; /*margem esquerda*/
+	margin-right: auto;/*margem direita*/
+	font-size: 16px; /*tamanho da fonte*/
+	line-height: 1.5; /*altura da linha*/
+	font-family: "Helvetica", "Lucida Grande", sans-serif; /*fontes*/
+	color: #3D3D3D; /*cor da fonte do corpo*/
+}
+.titulo { /*ultização de classes no html*/
+	padding: 10px; /*preenchimento*/
+	font-size: 32px; /*tamanho da fonte*/
+	background-color: #e1edf2; /*cor de fundo*/
+}
+.subtitulo { /*ultilização da classe no html*/
+	
+	border-bottom: 2px solid black; /*borda inferior*/
+}
+figure{ /*definições para a tag figure do html*/
+	max-width: 100%;
+	box-sizing: border-box;
+	margin: 30px;
+	padding: 15px; /*preenchimento cinza em volta da imagem*/
+	text-align: center; /*alinhamento do texto abaixo da foto*/
+
+	background-color: whitesmoke; /*cor de fundo*/
+	border: 1px solid lightgrey; /*borda */
+}
+figcaption{
+	margin-top: 10px;
+}
+	
+.limoeirodonorte {
+	width: 550px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.escritorio {
+	width: 275px;
+	float: right;
+}
+figure img{
+	width: 100%;
+}
+.contato__subtitulo{
+	display: inline;
+}
+.contato__secao{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 16px;
+}
+.contato__secao--telefone{
+	margin-left: 32px;
+}
+.contato__info{
+	margin: 16px 0 24px;
+	padding-left: 32px;
+}
+.contato__info-titulo,
+.contato__info-descricao{
+	display: inline;
+}
+.contato__info-descricao{
+	margin-left: 10px;
+
+}
+.rodape{
+	padding: 1.75em 0;
+	font-size: 1.1rem;
+
+}
+.rodape__logo{
+	width: 6em;
+}
+.rodape__copyright{
+	display: inline;
+	margin-left: 1em;
+}
